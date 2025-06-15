@@ -35,7 +35,9 @@ class Widevine(General):
         # },
         "arm64": {
             "11.0.0": ["https://github.com/supremegamers/vendor_google_proprietary_widevine-prebuilt/archive/a1a19361d36311bee042da8cf4ced798d2c76d98.zip",
-                       "fed6898b5cfd2a908cb134df97802554"]
+                       "fed6898b5cfd2a908cb134df97802554"],
+            "15.0.0_64only": ["https://github.com/supremegamers/vendor_google_proprietary_widevine-prebuilt/archive/a1a19361d36311bee042da8cf4ced798d2c76d98.zip",
+                       "fed6898b5cfd2a908cb134df97802554"],
         }
     }
     dl_file_name = os.path.join(download_loc, "widevine.zip")
